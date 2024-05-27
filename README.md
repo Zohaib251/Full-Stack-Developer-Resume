@@ -16,12 +16,12 @@ This is a personal portfolio website developed using HTML and CSS. The website s
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/portfolio-website.git
+    git clone https://github.com/Zohaib251/Personal-Portfolio.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd portfolio-website
+    cd Personal-Portfolio
     ```
 
 3. Open `index.html` in your web browser to view the website.
@@ -68,19 +68,20 @@ To customize the website, you can edit the content in `index.html` and modify th
 Contributions are welcome! Please fork the repository and create a pull request with your changes. 
 
 1. Fork the repository.
-2. Create a new branch:
+   
+3. Create a new branch:
     ```bash
     git checkout -b my-new-feature
     ```
-3. Commit your changes:
+4. Commit your changes:
     ```bash
     git commit -m 'Add some feature'
     ```
-4. Push to the branch:
+5. Push to the branch:
     ```bash
     git push origin my-new-feature
     ```
-5. Create a pull request.
+6. Create a pull request.
 
 ## License
 
