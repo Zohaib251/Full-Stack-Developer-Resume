@@ -1,0 +1,230 @@
+/* Resetting margin, padding, and box-sizing for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Left side styling */
+.container .left_side{
+    background-color: #1438c9;
+    padding: 40px;
+}
+
+/* Profile text section */
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* Profile image box */
+.profile_text .img_box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Profile image styling */
+.profile_text .img_box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Profile name and title */
+.profile_text h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.profile_text h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* Contact info section */
+.contact_info{
+    padding-top: 40px;
+}
+
+/* Title styling */
+.title{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* Contact info list */
+.contact_info ul{
+    position: relative;
+}
+
+/* Contact info list items */
+.contact_info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Icons for contact info */
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+/* Contact info text */
+.contact_info ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+/* Education section styling */
+.contact_info.Education li{
+    margin-bottom: 15px;
+}
+
+.contact_info.Education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contact_info.Education h4:nth-child(2){
+    color: white;
+    font-weight: 500;
+}
+
+.contact_info.Education h4{
+    color: white;
+    font-weight: 200;
+}
+
+/* Language section styling */
+.contact_info.Language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+
+.contact_info.Language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+/* Right side styling */
+.container .right_side{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+/* About section styling */
+.about{
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #001d2b;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #000000;
+}
+
+/* Experience section styling */
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company{
+    min-width: 150px;
+}
+
+.about .box .year_company h5{
+    color: #000b10;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+/* Skills section styling */
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    color: #000000;
+    font-weight: 500;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #dadada;
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #0076ac;
+}
