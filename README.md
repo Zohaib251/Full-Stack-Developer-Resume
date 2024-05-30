@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# Full Stack Developer Resume
 
-This is a personal portfolio website developed using HTML and CSS. The website showcases the profile, contact information, education, language proficiency, work experience, and skills of Muhammad Zohaib Ali, a website developer.
+This is a Developer Resume developed using HTML and CSS. The resume showcases the profile, contact information, education, language proficiency, work experience, and skills of Muhammad Zohaib Ali, a website developer.
 
 ## Table of Contents
 
@@ -16,12 +16,12 @@ This is a personal portfolio website developed using HTML and CSS. The website s
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/Zohaib251/Personal-Portfolio.git
+    git clone https://github.com/Zohaib251/Full-Stack-Developer-Resume.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd Personal-Portfolio
+    cd Full-Stack-Developer-Resume
     ```
 
 3. Open `index.html` in your web browser to view the website.
@@ -57,7 +57,7 @@ The project consists of the following files:
 
 ## Customization
 
-To customize the website, you can edit the content in `index.html` and modify the styles in `index.css`. For example, you can update your profile picture, name, contact information, education details, and work experience. You can also adjust the colors, fonts, and layout by editing the CSS file.
+To customize the resume, you can edit the content in `index.html` and modify the styles in `index.css`. For example, you can update your profile picture, name, contact information, education details, and work experience. You can also adjust the colors, fonts, and layout by editing the CSS file.
 
 ## Dependencies
 
